@@ -1,10 +1,42 @@
+<html>
 <div class="container fluid">
 
+<div>
 <h1> hello-world </h1>
 <h2> these are my coding notes </h2> 
 <p> shortpoet is my name and coding is my neogame</p> 
 <p>for a language a flame burns one and the same </p>
+</div>
 
+<div>
+<h2> Linux Terminal </h2>
+<ul>
+ <li> CLI: command line interface </li>
+<li>  environment variable: way to configure environment to be different e.g. $PATH ; CLICOLOR ; LSCOLOR </li>
+<li> bash; born again shell; name for linux/command line program iteration; used to be unix shell </li>
+<li>  bash environment: where programs execute from, where files are accessed in filesystem </li>
+  <li> export: command that marks or executes an environment variable </li>
+  <li> "." in front of filename: indicates a hidden file </li>
+ <li> cd + directory name: CLI commond to enter a particluar directory </li>
+ <li> "." : CLI command to refer to current directory </li>
+ <li> ".." : CLI designator to refer to parent directory </li>
+ <li> "*" : CLI designator for wild cards; aka 'splat'
+ <li> ls : CLI command to list the contents of a directory </li>
+ <li> ln -a -l </li>
+ <li> $PATH : path refers to directory trees in which executable binary files can be executed from the command line ; specifies where the executables that bash knows about are located </br> .bash_profile is a file (created) that stores paths added to the default ; export PATH="/Applications/Firefox.app/Contents/MacOS/:$PATH" </li>
+  <li> vim: a text editor for linux written in bash </br> ":" enters command mode; + q = quit ; w = write ; q! = hard quit (no save) (! = bang) (* = splat) "i" enters insert mode </br> copy/paste to vim command+shift+c/v </li>
+  <li> vi: predecessor to vim </li>
+  <li> Homebrew: package manager for linux environment; basically a packager &#40installer creator&#41 and installer for a software suite and all its dependencies </li>
+  <li> Git: distributed version control system for configuration control and form management </br> commands: clone + "filename" = downloads a copy of a version onto the local drive ; status + "filename" = checks to see if snapshot of local filesystem is different from snapshot of latest commit in local repository ; add + "filename" = selects files to add to the snapshot of the local repository ; committ + "filename" = saves the new snapshot based on added files </li>
+<li> source + filename: CLI command to source changes, implement a file with environmental variables e.g. .bash_profile </li>
+<li> echo + filename: CLI command to find a file ; file must be within $PATH </li>
+<li> locate + filename: CLI command to find a file; file must be indexed in local database <code> sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist </code> ; e.g. locate *.jpg to fine every possible file with a .jpg extension ; locate -i *.jpg ignores case sensitivity to locate possible .JpEg files </li>
+<!-- Ig successfully uses the word 'meta' in a sentence for the first time in his life.  He did so by suggesting the use of the comment feature of HTML to make notes in my notes.  So here is an example of the example-->
+</ul>
+</div>
+
+<div>
+<h2> HTML </h2>
 <ul>
   <li>line breaks </br> &lt/br&gt</li>
   <li>commenting sections <br> &lt!-- </li>
@@ -18,38 +50,32 @@
   &ltli&gt &lt/li&gt
     &lt/ul&gt </pre></li>
 <li> use case: useful to search for examples of code use</li>
-  <li> bash; born again shell; name for linux/command line program iteration; used to be unix shell </li>
- <!--
- . in front of filename
- export 
- cd 
- .
- ..
- *
- ln 
- ln -a -l 
- CLI command line interface
- LS refers to ls command 
- environment variable -> way to configure environment to be different e.g. $PATH ; CLICOLOR ; LSCOLOR
- bash environment -> where programs execute from, where files are accessed in filesystem 
- echo
- locate after updated 
- source changes e.g. bash_profile 
--->
-  <li> $PATH : path refers to directory trees in which executable binary files can be executed from the command line ; specifies where the executables that bash knows about are located </br> .bash_profile is a file (created) that stores paths added to the default ; export PATH="/Applications/Firefox.app/Contents/MacOS/:$PATH" </li>
- 
-  <li> vim: a text editor for linux written in bash </br> ":" enters command mode; + q = quit ; w = write ; q! = hard quit (no save) (! = bang) (* = splat) "i" enters insert mode </br> copy/paste to vim command+shift+c/v </li>
-  <li> vi: predecessor to vim </li>
-  <li> Homebrew: package manager for linux environment; basically a packager &#40installer creator&#41 and installer for a software suite and all its dependencies </li>
-  <li> Git: distributed version control system for configuration control and form management </br> commands: clone + "filename" = downloads a copy of a version onto the local drive ; status + "filename" = checks to see if snapshot of local filesystem is different from snapshot of latest commit in local repository ; add + "filename" = selects files to add to the snapshot of the local repository ; committ + "filename" = saves the new snapshot based on added files </li>
-<!-- Ig successfully uses the word 'meta' in a sentence for the first time in his life.  He did so by suggesting the use of the comment feature of HTML to make notes in my notes.  So here is an example of the example-->
   <li> &ltcode&gt : formats as code </li>
   <li> &ltpre&gt : renders exactly as formatted </li>
+<li> &lta&gt: link to external pages with anchor elements ; <code> &ltp&gtHere's a &lta href="http://freecodecamp.com"&gt link to Free Code Camp&lt/a&gt for you to follow.&lt/p&gt </code>
+<li> &lta&gt: anchor elements; add a link to an external page </li>
+<li> &ltimg src="URL" alt="alt attribute description/text" &gt: add images ; in most cases <code>img</code> elements are self-closing  </li>
+<li> &lta href="URL"&gt&ltimg src="URL" alt="text" &gt&lt/a&gt: turn an image in to a link ; add images within anchor elements </li>
+<li> &ltimg src="..." class="mx-auto d-block"/%gt: The <code>center-block</code> class no longer exists in Bootstrap 4 ; To center an image in Bootstrap 4, use mx-auto d-block</li>
 
-  </ul>
+ </ul>
+ </div>
+
+<div>
+  <h2> Old Notes </h2>
+  <p> <pre> I am learning to code and here are my notes. “Spool up the FTL* drive” *faster than light {for the uninitiated ;-)}
+difference between href= and src= for images
+why use an anchor <a> sometimes and not other times? → a hypertext link instead of an image
+why can’t I click in the middle of a line of code, particularly in between “” ; also can’t use arrows to navigate, particularly forward arrow ; also randomly jumps two lines down </pre> </p>
+</div>
 
 
+ride like the wind
+please hammer, don’t hurt ‘em
+they’re in another castle
+even sad panda smiles
 
+<div>
 <h2> Questions:</h2>
 <p> How does this site make its table html code automatically exclude string literals? 
 <a href="http://www.theukwebdesigncompany.com/articles/entity-escape-characters.php"> HTML Escape Characters: Complete List</a>
@@ -57,5 +83,9 @@
 <p> what is the difference between a &ltdr&gt and &lt/dr&gt ? </p>
 <p> why don't i have to escape out the quotation mark characters sometimes? -> when do certain parameters qualify as code and what are the exceptions? </p>
 <p> what else gets stored in the .bash_profile file? </p>
+<p> more info on bootstrap 4: <code>&ltimg src="..." class="mx-auto d-block"/%gt</code> ; <a href="http://stackoverflow.com/a/43293957"> stack overflow answer</a>  </p>  
+<p> how can i link to a link within my page?  if I have aldready anchored a link to my page, can I then treat that link as a local link?</p>
+</div>
 
 </div>
+</html>
